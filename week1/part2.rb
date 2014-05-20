@@ -20,11 +20,11 @@ end
 
 
 
-puts hello("Ruben")
+#puts hello("Ruben")
 
-puts starts_with_consonant?("Ruben")
-puts starts_with_consonant?("Aksel")
+#puts starts_with_consonant?("Ruben")
+#puts starts_with_consonant?("Aksel")
 
-puts binary_multiple_of_4?("10101010101")
-puts binary_multiple_of_4?("100")
-puts binary_multiple_of_4?("001")
+#puts binary_multiple_of_4?("10101010101")
+#puts binary_multiple_of_4?("100")
+#puts binary_multiple_of_4?("001")
