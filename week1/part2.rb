@@ -4,7 +4,7 @@ end
 
 
 def starts_with_consonant?(s)
-  if s.size > 0 and /^[a-zA-Z]$/
+  if s.size > 0 and /^[a-zA-Z]*$/ === s
     no_consonant = ["a", "e", "i", "o", "u"]
     return !(no_consonant.include?(s[0,1].downcase)) 
   else 
