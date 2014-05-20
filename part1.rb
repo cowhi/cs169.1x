@@ -27,23 +27,3 @@ def sum_to_n?(integer_array, integer_n)
   return false
 end
 
-test1 = [1, 2, 3, 4]
-test2 = []
-test3 = [1]
-test4 = [1,2]
-test5 = [1,3,3]
-
-puts sum(test1)
-puts sum(test2)
-
-puts max_2_sum(test1)
-puts max_2_sum(test2)
-puts max_2_sum(test3)
-puts max_2_sum(test4)
-puts max_2_sum(test5)
-
-puts sum_to_n?(test1, 7)
-puts sum_to_n?(test2, 7)
-puts sum_to_n?(test3, 7)
-puts sum_to_n?(test4, 7)
-puts sum_to_n?(test5, 7)
