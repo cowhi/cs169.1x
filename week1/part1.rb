@@ -15,6 +15,9 @@ def max_2_sum(integer_array)
 end
 
 def sum_to_n?(integer_array, integer_n)
+  if integer_array.size == 0 || 1
+    return false
+  end
   integer_array.each_with_index { |value1, index1|
     integer_array.each_index{  |value2, index2|
       if index1 != index2
@@ -26,4 +29,6 @@ def sum_to_n?(integer_array, integer_n)
   }
   return false
 end
+
+print sum_to_n?([1],1)
 
