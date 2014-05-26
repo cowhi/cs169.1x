@@ -1,0 +1,7 @@
+#! /opt/local/bin/ruby -wKI
+
+task :default => :run
+
+task :run do
+  require './rock_paper_scissors'
+end
